@@ -1,0 +1,219 @@
+.container{
+     width: 100vw;
+     height: 100vh;
+     background-image: url(./image/WhatsApp\ Image\ 2024-09-01\ at\ 21.17.12_1d4c0cf8.jpg);
+     background-position: center;
+     object-fit: cover;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-container{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    margin: 0 auto;
+    padding-top: 18px;
+    
+}
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+    color: rgb(238, 226, 226);
+    list-style: none;
+    gap: 80px;
+    margin-top: 10px;
+    
+    
+}
+.nav-logo{
+    display: flex;
+    font-size: 2rem;
+    font-family: Arial;
+    font-weight: 200;
+    color: rgb(170, 59, 19);
+   margin-left: 5rem;
+}
+.nav-img{
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    margin-top: 0.8rem;
+}
+.nav-search{
+    display: flex;
+    padding: auto;
+    height: 100%;
+    gap: 0px;
+}
+.ser-icon{
+  
+    background-color: rgb(2, 7, 9);
+    border: 1px solid rgb(170, 59, 19);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: rgb(252, 252, 252);
+   
+}
+.src-but{
+    width: 80px;
+    background-color: rgb(207, 87, 44);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    font-weight: 500;
+}
+.hover:hover{
+    color: rgb(207, 87, 44) ;
+    cursor: pointer;
+}
+.left-side{
+    font-size: large;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    
+    margin-top: 10px;
+
+}
+span{
+    color:  rgb(207, 87, 44) ;
+}
+.main-container{
+    width: 85%;
+    padding-top: 110px;
+    padding-left: 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    min-height: 80%;
+   
+    
+}
+.input-group{
+    position: relative;
+    margin: 30px 0;
+    border-bottom: 2px solid #fff;
+    width: 90%;
+    margin: 0 auto;
+   height: 70px;
+    gap: 30px;
+}
+.input-group label{
+   position: absolute;
+   top: 50%;
+   left: 5px;
+   transform: translateY(-50%);
+   font-size:16px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: #fff;
+   pointer-events: none;
+}
+.input-group input{
+    width: 320px;
+    height: 40px;
+    font-size: 16px;
+ 
+    color: #fff;
+    padding: 0 5px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.final-but{
+    border-radius: 0.8rem;
+    background-color:   rgb(207, 87, 44);
+    color: white;
+    padding: auto;
+    margin-top: 30px ;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#head{
+    color: #fff;
+    font-size: 3rem;
+    max-width: 340px;
+    line-height: 50px;
+}
+.midle-content{
+    font-style: normal;
+    font-weight: bold;
+    color: #bbb9b9;
+    width: 600px;
+    line-height: 30px;
+}
+.main-but{
+    position: relative;
+    background:   rgb(207, 87, 44);
+    border-radius: 0.5rem;
+    margin-top: 2.3rem;
+    width: 100px;
+    height: 30px;
+}
+.right-container{
+    width: 30%;
+   border-radius: 2.5rem;
+   background-color: rgba(0, 0, 17, 0.985);
+   display: flex;
+   flex-direction: column;
+   opacity: 60%;
+}
+.form-head{
+    background-color: #fff;
+    color:  rgb(207, 87, 44);
+     padding-top:0.5rem ;
+    width: 80%;
+    height: 2.5rem;
+    margin:0 auto;
+    margin-top: 1rem;
+    border-radius: 2.3rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3{
+    color: #fff;
+    width: 60%;
+    height: 4rem;
+   
+    margin: 0 auto;
+    line-height: 1.4rem;
+}
+.last{
+   padding: 20px;
+}
+.app-logo{
+    position: relative;
+    bottom: 0;
+    display: flex;
+    gap: 1.6rem;
+  background-color: #bbb9b9;
+  border-radius: 0.3rem;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+  height: 40px;
+}
+a img{
+      gap: 0.5rem;
+      margin-left: 1rem;
+}
+.login-with p{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+
